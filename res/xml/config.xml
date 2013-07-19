@@ -66,6 +66,7 @@
         <param name="android-package" value="org.apache.cordova.InAppBrowser" />
     </feature>
     <plugins>
+		<plugin name="WikitudePlugin" value="com.wikitude.phonegap.WikitudePlugin"/>
     </plugins>
     <access origin="*" />
     <preference name="useBrowserHistory" value="true" />
