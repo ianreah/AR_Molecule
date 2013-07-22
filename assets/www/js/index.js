@@ -12,9 +12,9 @@ var app = {
     },
     report: function(id) { 
         console.log("report:" + id);
-        // hide the .pending <p> and show the .complete <p>
+        // hide the .pending <p> and show the .loading <p>
         document.querySelector('#' + id + ' .pending').className += ' hide';
-        var completeElem = document.querySelector('#' + id + ' .complete');
+        var completeElem = document.querySelector('#' + id + ' .loading');
         completeElem.className = completeElem.className.split('hide').join('');
     }
 };

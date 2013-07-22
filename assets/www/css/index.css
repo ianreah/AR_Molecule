@@ -56,7 +56,7 @@ h1 {
     max-width:175px;
 }
 
-.status.complete {
+.status.loading {
     background-color:#4B946A;
 }
 
