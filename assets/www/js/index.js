@@ -8,6 +8,15 @@ var app = {
         document.querySelector('#deviceready .pending').className += ' hide';
         var loading = document.querySelector('#deviceready .loading');
         loading.className = loading.className.split('hide').join('');
+        
+        // load the AR world
+        WikitudePlugin.isDeviceSupported(function() {
+        	WikitudePlugin.loadARchitectWorld("assets/www/theWorld.html");
+        },
+        
+        function() {
+        	navigator.notification.alert('Unable to launch the augmented reality world on this device!');
+        });
     }
 };
 
