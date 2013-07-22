@@ -1,21 +1,13 @@
 var app = {
     initialize: function() {
-        this.bind();
+		document.addEventListener('deviceready', this.deviceready, false);
     },
-    bind: function() {
-        document.addEventListener('deviceready', this.deviceready, false);
-    },
+
     deviceready: function() {
-        // note that this is an event handler so the scope is that of the event
-        // so we need to call app.report(), and not this.report()
-        app.report('deviceready');
-    },
-    report: function(id) { 
-        console.log("report:" + id);
         // hide the .pending <p> and show the .loading <p>
-        document.querySelector('#' + id + ' .pending').className += ' hide';
-        var completeElem = document.querySelector('#' + id + ' .loading');
-        completeElem.className = completeElem.className.split('hide').join('');
+        document.querySelector('#deviceready .pending').className += ' hide';
+        var loading = document.querySelector('#deviceready .loading');
+        loading.className = loading.className.split('hide').join('');
     }
 };
 
