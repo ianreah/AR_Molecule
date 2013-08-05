@@ -12,6 +12,8 @@ Augmented reality with 3D molecule structures
 - Point your device at the target marker
 - Watch the spinning molecule structure appear
 
+Or, [watch a short video](http://youtu.be/T06B_uyfRp0) to get some idea of what it looks like.
+
 ## Credits ##
 
 I got the [background image](http://freestock.ca/photomanipulations_g84-abstract_coffee_beans_texture_p2293.html) for the target marker from  [freestock.ca](http://freestock.ca/). It's licensed under [a Creative Commons Attribution 3.0 Unported License](http://creativecommons.org/licenses/by/3.0/deed.en_US).
