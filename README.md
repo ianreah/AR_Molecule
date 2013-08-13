@@ -1,7 +1,7 @@
 AR_Molecule
 ===========
 
-Augmented reality with 3D molecule structures
+Augmented reality with 3D molecule structures. There's more details in [this blog](http://ianreah.com/2013/08/11/Augmented-Reality-with-JavaScript-Part-2.html) post.
 
 ## Instructions ##
 
