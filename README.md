@@ -1,7 +1,7 @@
 AR_Molecule
 ===========
 
-Augmented reality with 3D molecule structures. There's more details in [this blog](http://ianreah.com/2013/08/11/Augmented-Reality-with-JavaScript-Part-2.html) post.
+Augmented reality with 3D molecule structures. Using [PhoneGap](http://phonegap.com/) and the [Wikitude](http://www.wikitude.com/) SDK. There's more details in [this blog post](http://ianreah.com/2013/08/11/Augmented-Reality-with-JavaScript-Part-2.html).
 
 ## Instructions ##
 
